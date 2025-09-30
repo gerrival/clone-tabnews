@@ -33,7 +33,13 @@ export default function Home() {
   };
 
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", textAlign: "center", marginTop: "50px" }}>
+    <div
+      style={{
+        fontFamily: "Arial, sans-serif",
+        textAlign: "center",
+        marginTop: "50px",
+      }}
+    >
       <h1>Calculadora de IMC</h1>
 
       <div style={{ marginBottom: "10px" }}>
@@ -56,7 +62,10 @@ export default function Home() {
         />
       </div>
 
-      <button onClick={calcularIMC} style={{ padding: "8px 16px", cursor: "pointer" }}>
+      <button
+        onClick={calcularIMC}
+        style={{ padding: "8px 16px", cursor: "pointer" }}
+      >
         Calcular
       </button>
 
